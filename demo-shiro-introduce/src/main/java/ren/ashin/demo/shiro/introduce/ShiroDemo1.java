@@ -1,4 +1,4 @@
-package ren.ashin.demo.shiro;
+package ren.ashin.demo.shiro.introduce;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
@@ -21,7 +21,7 @@ public class ShiroDemo1 {
         // 当前用户
         Subject user = SecurityUtils.getSubject();
         // 通过UsernamePasswordToken来模拟html/jsp传递过来的用户名密码
-        UsernamePasswordToken token = new UsernamePasswordToken("admin", "123456");
+        UsernamePasswordToken token = new UsernamePasswordToken("admin", "123");
         // 通过shiro来判断用户是否登录成功
         // login 不返回结果，需要通过捕获异常判断是否登录成功
         // 生成try catch 快捷键ctrl+alt+t
