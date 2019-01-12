@@ -11,6 +11,7 @@
     <modules>
         <module>demo-shiro-introduce</module>
         <module>demo-shiro-jdbcrealm</module>
+        <module>demo-shiro-authoriza</module>
     </modules>
 
     <dependencies>
