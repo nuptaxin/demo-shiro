@@ -8,7 +8,7 @@ import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.Factory;
 
-public class ShiroDemo1 {
+public class ShiroDemo {
     // 快速生成 psvm
     public static void main(String[] args) {
         // SecurityManager ---> factory
